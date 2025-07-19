@@ -146,8 +146,8 @@ You can find these details after logging in to your new Snowflake account by:
 After fulfilling all prerequisites and installing dependencies, we can now provision Snowgoat:
 
 ```shell
-git clone https://github/PLACEHOLDER_FOR_SNOWGOAT_IN_GITHUB
-cd snowgoat-infra/
+git clone https://github.com/VaronisThreatLabs/SnowGoat.git
+cd SnowGoat
 terraform init
 terraform apply -auto-approve
 ```
